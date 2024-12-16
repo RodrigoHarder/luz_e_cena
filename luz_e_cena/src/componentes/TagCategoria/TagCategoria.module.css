@@ -1,0 +1,18 @@
+.tag {
+    padding: var(--padding-xs) var(--padding-s);
+    border-radius: 0.5rem;
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    text-align: center;
+    font-family: var(--fonte-texto);
+}
+
+.doisD {
+    background-color:var(--cor-de-fundo-categoria-2d);
+    color: var(--cor-texto);
+}
+
+.tresD {
+    background-color: var(--cor-de-fundo-categoria-3d);
+    color:var(--cor-texto);
+}
