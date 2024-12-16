@@ -3,7 +3,7 @@
     padding: var(--padding-xxl) 0;
 }
 
-.newsletter h2{
+.titulo{
     color: var(--cor-texto);
     font-family: var(--fonte-titulo);
     font-size: var(--font-size-l);
