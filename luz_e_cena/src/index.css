@@ -1,17 +1,15 @@
 :root {
-  --cor-texto: #1e1e1e;
-  --cor-texto-hover: #252530;
-  --cor-texto-claro: #ffffff;
-  --cor-texto-destaque: #6F99FF;
-  --cor-faixa-etaria: #F5D010;
-  --cor-faixa-etaria-livre: #C3FF95;
-
-  --cor-de-fundo-categoria-2d: #EFEFEF;
-  --cor-de-fundo-categoria-3d: #A6A6A6;
-  --cor-de-fundo: #ffffff;
-  --cor-de-fundo-newsletter: #CCDBFF;
-  --cor-de-fundo-footer: #1E1E1E;
-  --cor-de-fundo-combo: #111114;
+  --preto: #1e1e1e;
+  --cinza-escuro: #252530;
+  --cinza-medio: #A6A6A6;
+  --cinza-claro: #EFEFEF;
+  --branco: #ffffff;
+  --verde: #C3FF95;
+  --azul: #6F99FF;
+  --azul-claro: #CCDBFF;
+  --amarelo: #F5D010;
+  --coral: #ED7562;
+  --vermelho: #F45866;
 
   --border-color: #A6A6A6;
   --box-shadow-card: 0px 4px 24px 0px #7B7B7B26;
@@ -45,13 +43,8 @@
   --margin-s: 1rem;
   --margin-m: 1.5rem;
   --margin-l: 2rem;
-
-  --line-height-xs: 1.2rem;
-  --line-height-s: 1.5rem;
-  --line-height-m: 1.75rem;
-  --line-height-l: 2rem;
-  --line-height-xl: 2.5rem;
-  --line-height-xxl: 5.7rem;
+  --margin-xl:3rem;
+  --margin-xxl:6rem;
 }
 
 * {

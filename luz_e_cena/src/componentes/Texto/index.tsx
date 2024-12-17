@@ -1,6 +1,6 @@
 interface TextoProps{
     children: string
-    className?: string
+    className: string
 }
 
 const Texto = ({children, className}: TextoProps) =>{

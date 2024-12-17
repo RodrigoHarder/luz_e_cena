@@ -5,14 +5,26 @@
     font-weight: 400;
     text-align: center;
     font-family: var(--fonte-texto);
+    color:var(--preto);
 }
 
+
 .livre {
-    background-color:var(--cor-faixa-etaria-livre);
-    color: var(--cor-texto);
+    background-color:var(--verde);
+}
+
+.dez{
+    background-color: var(--azul);
 }
 
 .doze {
-    background-color: var(--cor-faixa-etaria);
-    color:var(--cor-texto);
+    background-color: var(--amarelo);
+}
+
+.catorze{
+    background-color: var(--coral);
+}
+
+.dezesseis {
+    background-color: var(--vermelho);
 }

@@ -9,22 +9,22 @@
     width: 40vw;
     height: 3rem;
     padding: var(--padding-s) var(--padding-m);
-    border: 3px solid var(--cor-de-fundo-footer);
+    border: 3px solid var(--cinza-escuro);
     background-color: var(--cor-de-fundo-newsletter);
     border-radius: 8px;
     outline: none;
 }
 
 .formulario input::placeholder {
-    color: var(--cor-texto);
+    color: var(--preto);
     font-family: var(--fonte-texto);
     font-size: var(--font-size-m);
 }
 
 .botao{
     padding: var(--padding-s);
-    color: var(--cor-texto-claro);
-    background-color: var(--cor-de-fundo-footer);
+    color: var(--branco);
+    background-color: var(--cinza-escuro);
     font-family: var(--fonte-texto);
     font-size: var(--font-size-s);
     border: none;

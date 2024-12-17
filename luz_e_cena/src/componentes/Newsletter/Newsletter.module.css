@@ -1,10 +1,10 @@
 .newsletter {
-    background-color: var(--cor-de-fundo-newsletter);
+    background-color: var(--azul-claro);
     padding: var(--padding-xxl) 0;
 }
 
 .titulo{
-    color: var(--cor-texto);
+    color: var(--preto);
     font-family: var(--fonte-titulo);
     font-size: var(--font-size-l);
     text-align: center;
