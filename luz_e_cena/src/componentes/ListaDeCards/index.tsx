@@ -1,8 +1,20 @@
+import Botao from "../Botao";
 import Card from "../Card";
+import InputDePesquisa from "./InputDePesquisa";
 import styles from './ListaDeCards.module.css'
 
+interface Filme {
+    src: string;
+    alt: string;
+    children: string;
+    categoria: string;
+    censura: string;
+    genero: string;
+    duracao: number;
+}
+
 const ListaDeCards = () => {
-    const filmes = [
+    const filmes: Filme[] = [
         {
             src: "/capas_de_filmes/Amanhecer.png",
             alt: "Imagem do filme Amanhecer",
@@ -79,6 +91,11 @@ const ListaDeCards = () => {
 
     return (
         <div className={styles.container}>
+            <div className={styles.ancoras}>
+                <Botao href="#">Em cartaz</Botao>
+                <Botao href="#">Em breve</Botao>
+            </div>
+            <InputDePesquisa placeholder="Digite sua busca" className={styles.inputDePesquisa} />
             <h2 className={styles.titulo}>Em cartaz</h2>
             <ul className={styles.lista}>
                 {filmes.map((filme, index) => (

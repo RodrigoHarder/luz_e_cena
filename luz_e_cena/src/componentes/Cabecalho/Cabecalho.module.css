@@ -1,5 +1,4 @@
 .cabecalho{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,11 +16,6 @@
     font-weight: 400;
 }
 
-a{
-    text-decoration: none;
-    color: var(--preto);
-}
-
-a:hover{
-    color: var(--cinza-escuro);
+.icone{
+    font-size: var(--font-size-l);
 }

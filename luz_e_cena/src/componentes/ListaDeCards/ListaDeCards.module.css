@@ -1,15 +1,24 @@
 .container{
     display:flex;
     flex-direction: column;
+    align-items: center;
     margin:var(--margin-xl);
 }
 
+.ancoras{
+    display: flex;
+    gap:var(--gap-m);
+    margin-left:65px;
+    margin-bottom: var(--margin-xl);
+    align-self: flex-start;
+}
 
 .titulo{
     color: var(--preto);
     font-family: var(--fonte-titulo);
     font-size: var(--font-size-xl);
-    margin:var(--margin-l);
+    margin-left:65px;
+    align-self: flex-start;
 }
 
 .lista{

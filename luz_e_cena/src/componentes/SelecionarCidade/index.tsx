@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './SelecionarCidade.module.css';
-import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import { FaLocationDot } from "react-icons/fa6";
 
 interface Cidade {
   id: number;
@@ -24,7 +24,7 @@ const SelecionarCidade = () => {
 
   return (
     <div className={styles.container}>
-      <LocationOnOutlinedIcon  className={styles.icone}/>
+      <FaLocationDot  className={styles.icone}/>
       <select
         id="cidade"
         value={cidade}

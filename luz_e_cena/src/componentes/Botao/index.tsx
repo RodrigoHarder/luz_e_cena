@@ -15,8 +15,8 @@ const comHref = (props: BotaoProps | LinkProps): props is LinkProps =>
     "href" in props;
 
 const Botao: Assinaturas = (props: BotaoProps | LinkProps) => {
-    if (comHref(props)) return <a {...props} />;
-    return <button {...props} />;
+    if (comHref(props)) return <a {...props}/>;
+    return <button {...props}/>;
 };
 
 export default Botao;

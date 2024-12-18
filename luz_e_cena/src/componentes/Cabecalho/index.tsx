@@ -1,6 +1,5 @@
 import Botao from "../Botao"
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
+import { HiOutlineShoppingCart, HiOutlineUser  } from "react-icons/hi";
 import styles from './Cabecalho.module.css'
 import SelecionarCidade from "../SelecionarCidade";
 
@@ -15,8 +14,8 @@ const Cabecalho = () => {
             </nav>
             <SelecionarCidade/>
             <div className={styles.icones}>
-                <Botao href="#"><ShoppingCartOutlinedIcon /></Botao>
-                <Botao href="#"><PersonOutlineOutlinedIcon /></Botao>
+                <Botao href="#"><HiOutlineShoppingCart className={styles.icone}/></Botao>
+                <Botao href="#"><HiOutlineUser className={styles.icone}/></Botao>
             </div>
         </header>
     )

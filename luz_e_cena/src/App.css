@@ -1,9 +1,0 @@
-.rodape {
-    background-color: var(--cor-de-fundo-input);
-    color: var(--cor-texto);
-    text-align: center;
-    padding: var(--padding-l) var(--padding-m);
-    font-family: var(--fonte-texto);
-    font-weight: 400;
-    font-size: var(--font-size-m);
-}
